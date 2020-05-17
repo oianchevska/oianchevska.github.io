@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather Data Visualization Dashboard</title>
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/custom_styles.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/custom_styles.css" media="screen">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="index.html" id="brand_name">Latitude</a>
+            <a class="navbar-brand" href="../index.html" id="brand_name">Latitude</a>
 
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,35 +29,35 @@
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdown_menu">
-                            <a class="dropdown-item drop-class" href="visualizations/max_temperature.html">
+                            <a class="dropdown-item drop-class" href="max_temperature.html">
                                 <i style='font-size:24px' class='fas'>&#xf769;</i> Max Temperature
                             </a>
-                            <a class="dropdown-item drop-class" href="visualizations/humidity.html">
+                            <a class="dropdown-item drop-class" href="humidity.html">
                                 <i style='font-size:24px' class='fas'>&#xf043;</i> Humidity
                             </a>
 
-                            <a class="dropdown-item drop-class" href="visualizations/cloudiness.html">
+                            <a class="dropdown-item drop-class" href="cloudiness.html">
                                 <i style='font-size:24px' class='fas'>&#xf6c4;</i> Cloudiness
                             </a>
 
-                            <a class="dropdown-item drop-class" href="visualizations/wind_speed.html">
+                            <a class="dropdown-item drop-class" href="wind_speed.html">
                                 <i style='font-size:24px' class='fas'>&#xf72e;</i> Wind Speed
                             </a>
                         </div>
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="comparisons.html">
+                        <a class="nav-link" href="../comparisons.html">
                             <i style='font-size:24px' class='fas'>&#xf24e;</i> Comparison
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="data.html">
+                        <a class="nav-link" href="../data.html">
                            <i style='font-size:24px' class='fas'>&#xf1c0;</i> Data
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="map.html">
+                        <a class="nav-link" href="../map.html">
                           <i style='font-size:24px' class='far'>&#xf279;</i> Map
                         </a>
                     </li>
@@ -72,46 +72,36 @@
             <div class="row outer-box">
                 <div class="col-lg-7 col-md-7">
                     <div class="big-box">
-                        <h2 id="main_color" style="font-weight: bold">Summary: Latitude vs. X</h2><hr>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                 <img src="assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature" class="img-fluid">
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <p/>
-                                <p class="text_color">The purpose of the project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                            </div>
-                        </div>
-                        <p/>
-                        <hr style="visibility: hidden;">
-                        <p class="text_color">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.</p>
+                        <h2 id="main_color" style="font-weight: bold">Wind Speed</h2><hr>
+                        <p class="text_color"><img src="../assets/images/City Latitude vs. Wind Speed.png" alt="Wind Speed">TBD</p>
+                        <p class="text_color">TBD2</p>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5">
-                    <div class="medium-box">
-                        <h3 style="color: lightseagreen; font-weight: bold">Visualizations</h3><hr>
+                    <div class="small-box">
+                        <h3>Visualizations</h3><hr>
                             <div class="d-none d-md-block">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
-                                        <a href = "visualizations/max_temperature.html">
-                                        <img src="assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature" class="img-fluid active-img">
+                                        <a href = "../visualizations/max_temperature.html">
+                                        <img src="../assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature">
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
-                                        <a href = "visualizations/humidity.html">
-                                        <img src="assets/images/City Latitude vs. Humidity.png" alt="Humidity" class="img-fluid active-img">
+                                        <a href = "../visualizations/humidity.html">
+                                        <img src="../assets/images/City Latitude vs. Humidity.png" alt="Humidity">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
-                                        <a href = "visualizations/cloudiness.html">
-                                        <img src="assets/images/City Latitude vs. Cloudiness.png" alt="Cloudiness" class="img-fluid active-img">
+                                        <a href = "../visualizations/cloudiness.html">
+                                        <img src="../assets/images/City Latitude vs. Cloudiness.png" alt="Cloudiness">
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
-                                        <a href = "visualizations/wind_speed.html">
-                                        <img src="assets/images/City Latitude vs. Wind Speed.png" alt="Wind Speed" class="img-fluid active-img">
+                                        <a href = "../visualizations/wind_speed.html">
+                                        <img src="../assets/images/City Latitude vs. Wind Speed.png" alt="Wind Speed">
                                         </a>
                                     </div>
                                 </div>
@@ -119,23 +109,23 @@
                             <div class="d-md-none">
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <a href = "visualizations/max_temperature.html">
-                                        <img src="assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature" class="img-fluid active-img">
+                                        <a href = "../visualizations/max_temperature.html">
+                                        <img src="../assets/images/City Latitude vs. Max Temperature.png" alt="Max Temperature">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a href = "visualizations/humidity.html">
-                                        <img src="assets/images/City Latitude vs. Humidity.png" alt="Humidity" class="img-fluid active-img">
+                                        <a href = "../visualizations/humidity.html">
+                                        <img src="../assets/images/City Latitude vs. Humidity.png" alt="Humidity">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a href = "visualizations/cloudiness.html">
-                                        <img src="assets/images/City Latitude vs. Cloudiness.png" alt="Cloudiness" class="img-fluid active-img">
+                                        <a href = "../visualizations/cloudiness.html">
+                                        <img src="../assets/images/City Latitude vs. Cloudiness.png" alt="Cloudiness">
                                         </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <a href = "visualizations/wind_speed.html">
-                                        <img src="assets/images/City Latitude vs. Wind Speed.png" alt="Wind Speed" class="img-fluid active-img">
+                                        <a href = "../visualizations/wind_speed.html">
+                                        <img src="../assets/images/City Latitude vs. Wind Speed.png" alt="Wind Speed">
                                         </a>
                                     </div>
                                 </div>
