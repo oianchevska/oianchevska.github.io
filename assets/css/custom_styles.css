@@ -8,7 +8,7 @@
   font-size: 24px;
   font-weight: bold;
   color: #fff;
-  background: #4aaaa5;
+  background: #2a99aa;
   text-align: center;
   vertical-align: middle
 }
@@ -22,7 +22,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #4aaaa5;
+    background-color: #2a99aa;
     color: #fff;
     text-align: center;
     border-top-style: solid;
@@ -35,14 +35,15 @@
 }
 
 .main_background {
-    background-color:lightgrey;
+    background-image: url("../images/weather.jpg");
+    background-color: #cccccc;
     margin:0px;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:0px;
+    padding-bottom:15px;
 }
 
 #main_color {
-    color:lightseagreen;
+    color:#2a99aa;
 }
 
 .text_color {
@@ -51,7 +52,7 @@
 
 .outer-box {
     margin-bottom:50px;
-    padding:30px;
+    padding:80px;
 }
 
 .inner-box {
@@ -71,13 +72,20 @@
     background:white;
 }
 .active-img:hover {
-    border: 2px solid lightseagreen;
+    border: 2px solid #2a99aa;
 }
 
+.img-landing-page{
+    float: left;
+    vertical-align: top;
+    width: 350px;
+    margin-right:10px;
+    margin-bottom: 10px;
+  }
 
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: #2a99aa;
   }
 
   #brand_name {
@@ -88,6 +96,7 @@
   }
 
 .main_background {
+    background-image:none;
     background-color:white;
 }
 
